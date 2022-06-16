@@ -1,4 +1,4 @@
-FROM node:12.11.1-alpine
+FROM node:12.22.12-alpine
 WORKDIR /usr/src/app
 COPY package*.json ./
 # Install app dependencies
